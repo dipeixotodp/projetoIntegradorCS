@@ -1,8 +1,9 @@
 Projeto Integrador - Cibersegurança
 🧑‍🎓 Integrantes
-Davi Fiorini
-Diego Mauad Peixoto
-Gabriel Figueiredo Spaziante
+
+- Davi Fiorini
+- Diego Mauad Peixoto
+- Gabriel Figueiredo Spaziante
 
 📝 Descrição
 
