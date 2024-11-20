@@ -24,11 +24,10 @@ int main() {
     char encriptado[100] = "";  
     int key[2][2] = { {3, 3},   
                       {2, 5} }; 
-
     char opcao = 'Y'; 
 
-    while (opcao == 'Y' || opcao == 'y') {
-        printf("Digite a mensagem a ser criptografada (somente letras): ");
+    while (opcao == 'S' || opcao == 's') {
+        printf("Digite a mensagem a ser criptografada): ");
         fgets(mensagem, sizeof(mensagem), stdin);
 
         mensagem[strcspn(mensagem, "\n")] = '\0';
@@ -42,7 +41,7 @@ int main() {
         }
 
         if (contemNumeros) {
-            printf("Erro: A mensagem não pode conter números. Tente novamente.\n\n");
+            printf("A mensagem não pode conter números. Tente novamente.\n\n");
             continue; 
         }
 
@@ -61,7 +60,7 @@ int main() {
         printf("Mensagem criptografada: %s\n", encriptado);
 
         
-        printf("\nDeseja criptografar outra mensagem? (Y/N): ");
+        printf("\nDeseja criptografar outra mensagem? (S/N): ");
         scanf(" %c", &opcao);
         getchar(); 
     }
