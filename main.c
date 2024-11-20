@@ -24,7 +24,7 @@ int main() {
     char encriptado[100] = "";  
     int key[2][2] = { {3, 3},   
                       {2, 5} }; 
-    char opcao = 'Y'; 
+    char opcao = 'S'; 
 
     while (opcao == 'S' || opcao == 's') {
         printf("Digite a mensagem a ser criptografada): ");
